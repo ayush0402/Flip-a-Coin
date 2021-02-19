@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val coinimage = findViewById<ImageView>(R.id.coinhome)
-        coinimage.setImageResource(R.drawable.coingifgray)
+        coinimage.setImageResource(R.drawable.coingifwhite)
 
         val button = findViewById<Button>(R.id.starthome_button)
         button.setOnClickListener {
